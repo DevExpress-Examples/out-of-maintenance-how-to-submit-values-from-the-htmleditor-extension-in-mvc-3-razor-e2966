@@ -1,0 +1,10 @@
+@using DevExpress.Web.Mvc.UI;
+@using DevExpress.Web.Mvc;
+
+ @Html.DevExpress().HtmlEditor(
+        settings =>
+        {
+            settings.Name = "htmlEditor";
+            settings.CallbackRouteValues = new { Controller = "Home", Action = "HtmlEditorPartial" };
+          
+        }).GetHtml()

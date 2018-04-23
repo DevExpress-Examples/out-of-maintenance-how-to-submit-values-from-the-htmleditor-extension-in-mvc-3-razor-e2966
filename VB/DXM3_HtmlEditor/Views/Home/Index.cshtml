@@ -1,0 +1,18 @@
+@using DevExpress.Web.Mvc.UI;
+@inherits System.Web.Mvc.WebViewPage
+@{
+    ViewBag.Title = "How to submit values from the HtmlEditor Extension in MVC 3 (Razor)";
+}
+@using (Html.BeginForm("SubmitHtml", "Home")) {
+
+    if (ViewBag.PostedHtml != null) {
+    <strong>Posted HTML:</strong>
+    @Html.Raw(ViewBag.PostedHtml)
+    }
+    @Html.Partial("HtmlEditorPartial")
+    @Html.DevExpress().Button(settings => {
+    settings.Name = "btn";
+    settings.UseSubmitBehavior = true;
+}).GetHtml()
+
+}
