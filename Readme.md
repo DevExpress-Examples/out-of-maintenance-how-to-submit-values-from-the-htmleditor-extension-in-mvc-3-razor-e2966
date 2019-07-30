@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # How to submit values from the HtmlEditor Extension in MVC 3 (Razor)
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e2966)**
+**[[Run Online]](https://codecentral.devexpress.com/e2966/)**
 <!-- run online end -->
 
 
