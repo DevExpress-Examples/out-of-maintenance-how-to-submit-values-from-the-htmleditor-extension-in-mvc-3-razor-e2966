@@ -1,1 +1,0 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="DXM3_HtmlEditor.MvcApplication" Language="vb" %>
